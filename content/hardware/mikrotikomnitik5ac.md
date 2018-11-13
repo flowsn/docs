@@ -186,3 +186,5 @@ add action=accept chain=input
       * Or from CLI:
           * `/system reset-configuration run-after-reset=flash/nycmesh-omni-####.rsc no-defaults=yes`
           * Dangerous Reset anyway? Y
+*  System > Passwords
+      * choose a unique and secure password
