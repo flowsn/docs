@@ -174,6 +174,7 @@ add action=accept chain=input
       *   The file needs to be in the `flash/` folder. However, there is no way to create a folder from the device.
       *   Instead you need to upload the file using scp.
       *   From a Mac or Linux desktop, upload the file using scp:  
+          On a PC install PuTTY to use scp command in command prompt:
           `scp nycmesh-omni-####.rsc admin@192.168.88.1:flash/`  
           You may need to confirm the SSH key ( typical with SSH )
       * You should see the file in the WebUI as `flash/nycmesh-omni-####.rsc`
